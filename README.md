@@ -2,14 +2,6 @@
 
 This repository contains the implementation of a course assignment focused on applying modern development workflow practices and tools to enhance website quality and development efficiency.
 
-## Project Overview
-
-This project demonstrates best practices in front-end development workflows, including:
-- Automated testing strategies
-- Code quality enforcement
-- Git workflow practices
-
-
 ## Objectives
 
 - Set up and configure code quality tools (ESLint and Prettier) to ensure consistent code style
@@ -27,8 +19,8 @@ This project demonstrates best practices in front-end development workflows, inc
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/yourusername/workflow-repo.git
-   cd workflow-repo
+   git clone https://github.com/tin-kri/workflow.git
+   cd workflow
    ```
 
 2. Install dependencies
@@ -41,7 +33,7 @@ This project demonstrates best practices in front-end development workflows, inc
    ```
    # Required environment variables 
    # TEST_USER_EMAIL=your-test-email@stud.noroff.no
-   # TEST_USER_PASSWORD=your-test-password
+   # TEST_USER_PASSWORD=yourtestpassword
    ```
 
 ## Available Scripts
@@ -57,18 +49,6 @@ This project demonstrates best practices in front-end development workflows, inc
   npm run dev
   ```
   This watches for changes in your CSS files and compiles Tailwind CSS.
-
-- **Run tests**
-  ```bash
-  npm run test
-  ```
-  This runs unit tests using Vitest.
-
-- **Run Playwright tests**
-  ```bash
-  npx playwright test
-  ```
-  This runs end-to-end tests with Playwright.
 
 ## Testing
 
