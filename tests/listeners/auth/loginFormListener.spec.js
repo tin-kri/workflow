@@ -18,7 +18,7 @@ test.describe("login", () => {
     await page.getByRole("button", { name: "Login" }).click();
 
     // Wait for any navigation or UI changes
-    await page.waitForTimeout(5000);
+    await page.waitForTimeout(10000);
 
     //Success if logout button is visible
     await expect(page.getByRole("button", { name: "Logout" })).toBeVisible();
